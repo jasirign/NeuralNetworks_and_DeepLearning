@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>Neural Networks and Deep Learning</TITLE>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-34216244-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</HEAD>
+
+
+
+<BODY BGCOLOR="White" LINK="blue" VLINK="blue" ALINK="blue">
+<P><FONT SIZE="6" COLOR=#000000><b>Introduction to Machine Learning </b></FONT></P>
+
+<P><FONT SIZE="4" COLOR=#000000>Mathematical Finance Section, Department of Mathematics, Imperial College London <br> Course code: M5MF45 <br> Instructor: Justin Sirignano (j.sirignano AT imperial.ac.uk) <br> </FONT></P>
+
+
+
+<TABLE WIDTH="900" BORDER="0" CELLSPACING="0" CELLPADDING="0" ALIGN="LEFT" VALIGN="TOP">
+<TR><TD WIDTH="900" ALIGN="LEFT" VALIGN="TOP">
+
+
+<FONT SIZE="4" COLOR = #000000><b>Course Topics</b></FONT>
+<ul>
+	<li> Bias-Variance tradeoff, linear regression, ridge regression, lasso regression, logistic regression </li>
+	<li> Regularization,Stochastic gradient descent </li>
+	<li> Kernel smoothing methods, Gaussian process regression </li>
+        <li> Decision trees, random forests, boosting </li>
+	<li> Unsupervised learning, clustering, Gaussian mixtures </li>
+	<li> Basic neural network architectures, backpropagation </li>
+	<li> Universal approximation theory for neural networks  </li>
+	<li> Deep learning, convolution neural networks, convolution filters, pooling, dropout, autoencoders, data augmentation, stochastic gradient descent with momentum </li>
+	<li> Implementation of neural networks for image classification, including MNIST and CIFAR10 datasets. </li>
+	<li> Multi-armed bandits, reinforcement learning, neural networks for Q-learning </li>
+</ul>
+
+
+<FONT SIZE="4" COLOR = #000000><b>Useful Links</b></FONT>
+<ul>
+	<li> Course textbook: <a href="http://web.stanford.edu/~hastie/local.ftp/Springer/OLD/ESLII_print4.pdf"
+        target = "_blank"> The Elements of Statistical Learning </a> by Hastie, Tibshirani, and Friedman
+	<li> MNIST dataset can be found <a href="http://yann.lecun.com/exdb/mnist/"
+        target = "_blank"> here </a>  </li>
+	<li> CIFAR10 and CIFAR100 datasets can be found <a href="http://www.cs.utoronto.ca/~kriz/cifar.html"
+        target = "_blank"> here </a>  </li>
+	<li> <a href="https://docs.python.org/2/tutorial/"
+        target = "_blank"> Python tutorial </a>, <a href="https://docs.scipy.org/doc/numpy-dev/user/quickstart.html "
+        target = "_blank"> Numpy tutorial </a>, <a href="http://ipython.org/"
+        target = "_blank"> IPython </a>   </li>
+</ul>
+
+<FONT SIZE="4" COLOR = #000000><b>Homeworks, Midterm, and Final Project</b></FONT>
+<ul>
+	<li> HW1: Implement logistic regression and train it on the MNIST dataset.  Include an L2 regularization penalty. </li>
+	<li> HW2: Implement a 1-layer neural network from scratch in Python and train it on the MNIST dataset.  Cross-validate the hyperparameters and include an L2 regularization penalty. </li>
+	<li> HW3: Implement a "deep" neural network for MNIST. Test different neural network architectures. </li>
+	<li> HW4: Implement a standard neural network as well as a convolutional neural network for CIFAR10.  Test different neural network architectures and compare results. </li>
+	<li> Final:  Will test core mathematical and machine learning concepts. </li> 
+</ul>
+
+<FONT SIZE="4" COLOR = #000000><b>Course Readings</b></FONT>
+<ul>
+	<li> <a href="http://zmjones.com/static/statistical-learning/hornik-nn-1991.pdf"
+        target = "_blank"> "Approximation Capabilities of Muitilayer Feedforward Networks "</a> by Hornik.    </li>
+	<li> <a href="http://arxiv.org/abs/1207.0580"
+        target = "_blank"> "Improving neural networks by preventing co-adaptation of feature detectors"</a> by Hinton et al.    </li>
+	<li> <a href="http://machinelearning.wustl.edu/mlpapers/papers/icml2013_wan13"
+        target = "_blank"> "Regularization of Neural Networks using DropConnect"</a> by Wan et al.  </li>
+	<li> <a href="http://arxiv.org/abs/1406.4729"
+        target = "_blank"> "Reading Digits in Natural Images with Unsupervised Feature Learning" </a> by Netzer et al.  </li>
+	<li>    <a href="http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf"
+        target = "_blank"> "ImageNet Classification with Deep Convolutional Neural Networks" </a> by Krizhevsky et al.  </li> 
+	<li>    <a href="http://arxiv.org/abs/1409.4842"
+        target = "_blank"> "Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition "</a> by He et al.   </li>
+	<li> <a href="http://arxiv.org/abs/1409.1556"
+        target = "_blank"> "Very Deep Convolutional Networks for Large-Scale Image Recognition"</a> by Simonyan and Zisserman.  </li>
+	<li> <a href="http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/37648.pdf"
+        target = "_blank"> "Going Deeper with Convolutions" </a> by Szegedy et al.  </li> 
+	<li>    <a href="http://arxiv.org/abs/1502.03167"
+        target = "_blank"> "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift" </a> by Ioffe and Szegedy  </li> 
+	<li>    <a href="http://arxiv.org/abs/1312.4400"
+        target = "_blank"> "Network In Network" </a> by Lin et al.  </li> 
+	<li>    <a href="http://papers.nips.cc/paper/4321-an-empirical-evaluation-of-thompson-sampling"
+        target = "_blank"> "An Empirical Evaluation of Thompson Sampling" </a> by Chapelle and Li  </li> 
+	<li> Other course readings TBA </li>
+	
+</ul>
+
+
+</TABLE>
+
+
+
+
+</BODY>
+
+</HTML>
